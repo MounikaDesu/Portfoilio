@@ -3,91 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Analyst Portfolio</title>
+    <title>Your Name - Business Analyst Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
 </head>
 <body>
-    <header>
+    <header id="home">
         <div class="container">
-            <h1>Mounika Desu</h1>
+            <h1>Your Name</h1>
             <p>Business Analyst</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <section id="introduction">
+    <section id="about">
         <div class="container">
-            <h2>Introduction</h2>
+            <h2>About Me</h2>
             <p>Brief introduction about yourself and your career as a business analyst.</p>
             <p>Highlight your key skills, strengths, and areas of expertise.</p>
         </div>
     </section>
 
-    <section id="experience">
+    <section id="services">
         <div class="container">
-            <h2>Professional Experience</h2>
-            
-            <div class="experience-item">
-                <h3>Job Title</h3>
-                <p>Company Name - Location</p>
-                <p>Duration of Employment</p>
-                <ul>
-                    <li>Key responsibility or achievement</li>
-                    <li>Another key responsibility or achievement</li>
-                </ul>
+            <h2>Services</h2>
+            <div class="services-item">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Analysis</h3>
+                <p>Description of your data analysis services.</p>
             </div>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Technical Skill 1</li>
-                <li>Technical Skill 2</li>
-                <li>Soft Skill 1</li>
-                <li>Soft Skill 2</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <!-- Repeat this structure for each project -->
-            <div class="project-item">
-                <h3>Project Name</h3>
-                <p>Description: Brief overview of the project.</p>
-                <p>Role: Your specific role and responsibilities.</p>
-                <p>Tools/Techniques Used: Mention tools, methodologies used.</p>
-                <p>Outcome/Results: Key achievements or outcomes.</p>
+            <div class="services-item">
+                <i class="fas fa-project-diagram"></i>
+                <h3>Process Improvement</h3>
+                <p>Description of your process improvement services.</p>
             </div>
+            <!-- Add more service items as needed -->
         </div>
     </section>
 
-    <section id="education">
+    <section id="portfolio">
         <div class="container">
-            <h2>Education</h2>
-            <p>Degree - Degree Name, Institution, Year of Graduation</p>
-            <p>Certifications (if applicable)</p>
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="overlay">
+                    <h3>Project Name 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="overlay">
+                    <h3>Project Name 2</h3>
+                    <p>Description of Project 2.</p>
+                </div>
+            </div>
+       
         </div>
     </section>
 
     <section id="contact">
         <div class="container">
-            <h2>Contact Information</h2>
-            <ul>
-                <li>Email: mounikadesu12@gmail.com</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/mdesu6/" target="_blank">LinkedIn Profile</a></li>
-                <li>GitHub: <a href="https://github.com/MounikaDesu" target="_blank">GitHub Profile</a></li>
-            </ul>
+            <h2>Contact Me</h2>
+            <form action="submit-form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </div>
     </section>
 
     <footer>
         <div class="container">
             <p>&copy; 2024 Mounika Desu. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+             
+            </div>
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
