@@ -1,98 +1,951 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Business Analyst Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mounika Desu - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header id="home">
-        <div class="container">
-            <h1>Your Name</h1>
-            <p>Business Analyst</p>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Brief introduction about yourself and your career as a business analyst.</p>
-            <p>Highlight your key skills, strengths, and areas of expertise.</p>
-        </div>
-    </section>
+  <!--
+    - #MAIN
+  -->
 
-    <section id="services">
-        <div class="container">
-            <h2>Services</h2>
-            <div class="services-item">
-                <i class="fas fa-chart-line"></i>
-                <h3>Data Analysis</h3>
-                <p>Description of your data analysis services.</p>
-            </div>
-            <div class="services-item">
-                <i class="fas fa-project-diagram"></i>
-                <h3>Process Improvement</h3>
-                <p>Description of your process improvement services.</p>
-            </div>
-            <!-- Add more service items as needed -->
-        </div>
-    </section>
+  <main>
 
-    <section id="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <div class="portfolio-item">
-                <img src="project1.jpg" alt="Project 1">
-                <div class="overlay">
-                    <h3>Project Name 1</h3>
-                    <p>Description of Project 1.</p>
-                </div>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Mow.jpeg" alt="Mounika Desu">
+      </figure>
+      
+
+        <div class="info-content">
+          <h1 class="name" title="Mounika Desu">Mounika Desu</h1>
+        
+          <div class="title-container">
+            <p class="title">Data Analyst</p>
+            <br>
+
+            <br>
+            <p class="title">Product Analyst/Manager</p>
+            <br>
+            
+            <br>
+            <p class="title">Business Intelligence Analyst</p>
+            <br>           
+        
+
+            <br>
+            <p class="title">Techinical Business Consultant</p>
+            <br>
+            
+            <br>
+          </div>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
-            <div class="portfolio-item">
-                <img src="project2.jpg" alt="Project 2">
-                <div class="overlay">
-                    <h3>Project Name 2</h3>
-                    <p>Description of Project 2.</p>
-                </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mounikadesu12@gmail.com" class="contact-link">mounikadesu12@gmail.com</a>
             </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+19473360019" class="contact-link">+1 (947) 336-0019</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+          
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+          
+              <a href="https://www.linkedin.com/in/mdesu6/" target="_blank" class="contact-link">linkedin.com/in/mounikadesu</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+          
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/MounikaDesu" target="_blank" class="contact-link">Github.com/MounikaDesu</a>
+            </div>
+          </li>
+          
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a detail-oriented business data analyst and product enthusiast with a Master of Science in Information Systems and Technology from the University of Michigan-Dearborn. 🌟 With a 4.00 GPA and an Honors Scholar award, I am deeply passionate about harnessing data-driven insights to architect business strategies and drive informed decision-making.
+          </p>
+
+          <p>
+            With over four years of experience spanning finance, retail, and banking sectors, my career showcases a dedicated effort towards extracting vital business insights and bridging the gap between complex data and practical, real-world applications. As a Technical Product Intern at Rocket Central, I enhanced data analysis techniques, substantially increasing operational efficiency. At HighRadius Corporation, my contributions were pivotal in process optimizations for major Fortune 500 clients, enhancing efficiency and promoting innovation. In my role at NCR Corporation, I applied thorough business analytics to improve system operations and customer satisfaction.
+          </p>
+
+          <p>
+            Combining a knack for business, a proficiency in analysis, and a forward-looking approach to products, I strive to transform intricate data into strategies and designs that resonate with customers. Proficient in SQL, Python, Power BI, Tableau, SASS, Excel and various CRM and ERP systems, I am ready to tackle complex challenges and translate data into actionable business intelligence.
+          </p>
+
+          <p>
+            I'm eager to apply my blend of analytical prowess and product development insight into roles that champion data-centric product evolution. Let’s connect to explore how my passion for building robust, data-infused products can translate into strategic assets for your organization. 💼📊
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Doing</h3>
+        
+          <ul class="service-list">      
+                  
+            <!-- Additional Software Development Item -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/data-analytics.svg" alt="Data Analytics icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analyst</h4>
+                <p class="service-item-text">
+                  Navigating through data to discover actionable trends, fueling informed decision-making
+                </p>
+              </div>
+            </li>
+
+            <!-- Additional Product Analyst/Manager Item -->
+            <li class="service-item">
+              <div class="service-icon-box">
+             <img src="./assets/images/product-analyst.svg" alt="Product Analyst icon" width="40">
+
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Product Analyst/Manager</h4>
+                <p class="service-item-text">
+                  Designing products that resonate – where user needs meet market trends.
+                </p>
+              </div>
+            </li>
+        
+            <!-- Additional Business Intelligence Analyst Item -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/ba.svg"  alt="Business Intelligence Analyst icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Business Intelligence Analyst</h4>
+                <p class="service-item-text">
+                  Shaping the future of business through sharp insights and smarter strategies.
+                </p>
+              </div>
+            </li>
+
+                  <!-- Additional Techinical Business Consultant Item -->
+                  <li class="service-item">
+                    <div class="service-icon-box">
+                      <img src="./assets/images/tbc.svg"  alt="Techinical Business Consultant icon" width="40">
+                    </div>
+                    <div class="service-content-box">
+                      <h4 class="h4 service-item-title">Techinical Business Consultant</h4>
+                      <p class="service-item-text">
+                        Bridging the gap between business goals and technological innovation.
+                      </p>
+                    </div>
+                  </li>
+        
+          </ul>
+        
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I've Achieved</h3>
+        
+          <ul class="project-list">
+
+         
+            <li class="project-item  active" data-filter-item data-category="cloud">
+              <a href="https://github.com/MounikaDesu/Awards/blob/main/Honors.jpeg" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/honors1.jpeg" alt="Data Migration to Cloud" loading="lazy" style="width: 259px;height: 195px;">
+                </figure>
+                <h3 class="project-title">University Graduate Honors Scholar</h3>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cloud">
+              <a href="https://github.com/MounikaDesu/Awards/blob/main/hero.png" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/employee1.jpg" style="width: 259px;height: 195px;" alt="Employee Recognition" loading="lazy">
+                </figure>                
+                <h3 class="project-title">PS Hero @ NCR Corporation</h3>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cloud">
+              <a href="https://github.com/MounikaDesu/Awards/blob/main/master%20with%20distinction.jpg" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/grad.jpg" alt="Master’s Achieved with Distinction" style="width: 259px;height: 195px;"loading="lazy">
+                </figure>
+                <h3 class="project-title">Master’s Achieved with Distinction</h3>
+              </a>
+            </li>
+          </ul>
+        
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> 
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <!--<h3 class="h3 clients-title">Clients</h3>-->
+
+          <ul>
+
+            <li class="clients-item">
+              <a href="#">
+              <!--  <img src="./assets/images/logo-1-color.png" alt="client logo"> -->
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+               <!-- <img src="./assets/images/logo-2-color.png" alt="client logo"> -->
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+              <!--  <img src="./assets/images/logo-3-color.png" alt="client logo">-->
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <!--<img src="./assets/images/logo-4-color.png" alt="client logo">-->
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <!--<img src="./assets/images/logo-5-color.png" alt="client logo">-->
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <!--<img src="./assets/images/logo-6-color.png" alt="client logo">-->
+              </a>
+            </li>
+
+          </ul>
+
+        </section> 
+        
+      </article> 
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technical Product Intern @ Rocket Companies</h4>
+
+              <span>May 2023 – August 2023</span>
+              
+              <ul class="timeline-text">
+                <li>● Spearheaded gap and feasibility analysis for business objectives, aligning technology initiatives with data privacy laws and
+                  bolstering company-wide financial compliance.</li>
+                <li>● Crafted comprehensive product requirement documents to steer the development of features across cross-functional teams.</li>
+                <li>● Uncovered key insights using SQL querying and extracted data that led to informed strategic decision-making.</li>
+                <li>● Deployed custom Power BI visualizations using data extracts, supplying legal stakeholders with KPI insights and metrics that
+                  led to a 50% increase in process efficiency.</li>
+                <li>● Exercised Excel for data analysis, reporting, and data manipulation tasks, ensuring data accuracy to generate insights.</li>
+                <li>● Coordinated executive briefings and developed clear and actionable status reports, directly supporting operational directives.</li>
+            </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Business Data Consultant II @ HighRadius Corporation</h4>
+
+              <span>August 2021 – June 2022</span>
+
+              <ul class="timeline-text">
+                <li>● Customized end-to-end, SaaS cloud solutions, boosting efficiency in Accounts receivables processes for Fortune 500 clients.</li>
+    <li>● Devised accurate workflows and process models, simplifying use cases and artifacts relating to enterprise (ERP) systems that
+    improved team solution comprehension.</li>
+    <li>● Conducted solution fit analysis and validation, streamlining proposals with requirements and boosting process automation.</li>
+    <li>● Tailored data-driven solutions using SQL for change management to optimize the Order to Cash cycle for B2B customers.</li>
+    <li>● Utilized Snowflake as a cloud-based data warehouse optimizing data storage and retrieval for analytical purposes.</li>
+    <li>● Assisted in data modeling and schema design for databases, optimizing performance and scalability for large datasets.</li>
+    <li>● Performed data validation and quality checks to ensure accurate and reliable data within the PostgreSQL database.</li>
+    <li>● Executed product testing along with User Acceptance Testing (UAT) to ensure compliance with requirements for projects.</li>
+    <li>● Orchestrated effective client communication in strategy walkthroughs, ensuring team and stakeholder alignment.</li>
+            </ul>
+              
+            </li>
+
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Business Analyst II @ NCR Corporation</h4>
+
+              <span>July 2018 – July 2021</span>
+
+              <ul class="timeline-text">
+                <li>● Facilitated business data requirements elicitation and analysis working with business users and stakeholders, to reinforce
+                  security compliance and diminish fraud within the electronic payment system.</li>
+                  <li>● Fostered cross-collaboration between Stakeholders, Development and Product teams to gather business requirements and
+                  translate them into actionable tasks to facilitate integrated solutions.</li>
+                  <li>● Performed data validation and quality checks to ensure accurate and reliable data within the PostgreSQL database.</li>
+                  <li>● Monitored system performance during production, managing code deployments for a consistent payment platform.</li>
+                  <li>● Assisted in troubleshooting and resolving data-related issues, working closely with the team to identify and rectify database
+                  performance bottlenecks.</li>
+                  <li>● Improved client engagement by analyzing NPS feedback through PowerBI dashboards, steering product upgrades and
+                  boosting customer retention.</li>
+            </ul>
+              
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Business Intelligence Analyst @ ADRIN (Department of Space)</h4>
+
+              <span>May 2017 – January 2018</span>
+
+              <ul class="timeline-text">
+                <li>● Leveraged qualitative and quantitative data analysis to extract insights from datasets, enhancing process improvement and
+                  functionality by aiding decision making.</li>
+                  <li>● Handled and executed the migration strategy including data extraction, transformation, and loading (ETL) processes.</li>
+                  <li>● Developed analysis methodologies with SQL and Tableau, leading to streamlined satellite data workflows.</li>
+                  <li>● Grew process re-engineering and optimization by transforming data into insights, assisting in migration plans.</li>
+                
+            </ul>              
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Michigan - Dearborn</h4>
+
+              <span>2022 — 2024</span>
+
+              <p style="color: var(--light-gray); font-weight: var(--fw-300); line-height: 1.6;">
+                Master of Science in Information Systems and Technology, GPA:  4.0/4.0
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">GITAM Deemed University</h4>
+
+              <span>2014 — 2018</span>
+
+              <p style="color: var(--light-gray); font-weight: var(--fw-300); line-height: 1.6;">
+                Bachelor of Technology in Computer Science and Engineering, GPA:3.9/4.0
+              </p>
+
+            </li>
+            
+          </ol>
+
+        </section>
+
+        
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Skills</h3>
+          </div>
+
+          <ul class="skills-list content-card">
+           
+            <p class="timeline-text" align="justify"><b>
+              Technical Skills:</b> SQL, NoSQL, Excel/Numbers/Sheets, ETL (Extract, Transform, Load), SAS, Power BI, Tableau, Snowflake DB,
+Salesforce CRM, ERP Systems (SAP)</p>
+<p class="timeline-text" align="justify"><b>Management Tools:</b> Jira, Asana, Confluence, Slack, Agile and Devops, BPMN, TFS, Wrike, Sharepoint, Visio</p>
+<p class="timeline-text" align="justify"><b>Certifications:</b> Google Analytics, SAFe Product Owner/Product Manager</p>
+</p>
+
+          </ul>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Relevant Coursework</h3>
+          </div>
+
+          <ul class="skills-list content-card">
+           
+            <p class="timeline-text" align="justify"><b>
+              Database Management | Enterprise Information Systems | Human-Computer Interaction | Program & Project Management | Software Quality Assurance and Testing 
+            </b></p>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web/App</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Python/AI/ML</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Cloud</button>
+            </li>
+
+          </ul> -->
+        
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web/App</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Python/AI/ML</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Cloud</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="cloud">
+              <a href="https://github.com/MounikaDesu/Ecommerice-Financial-Data-Evaluation" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/ecommerce.jpg" alt="Ecommerice Financial Data Evaluation" style="width: 259px; height: 195px;"loading="lazy">
+                </figure>
+                <h3 class="project-title">Ecommerice Financial Data Evaluation</h3>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python/ai/ml">
+              <a href="https://github.com/MounikaDesu/SQL-Driven-Pizza-Sales-Performance-and-Insights" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/pizza.png" style="width: 259px; height: 195px;" alt="SQL Driven Pizza Sales Performance and Insights" loading="lazy">
+                </figure>
+                <h3 class="project-title">SQL Driven Pizza Sales Performance and Insights</h3>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web/app">
+              <a href="https://github.com/MounikaDesu/Customer-Profiling-using-RFM-Segmentation" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/customersegmentation.png" style="width: 259px; height: 195px;" alt="Customer Profiling using RFM Segmentation" loading="lazy">
+                </figure>
+                <h3 class="project-title">Customer Profiling using RFM Segmentation</h3>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python/ai/ml">
+              <a href="https://github.com/MounikaDesu/Supply-Chain-Data-Exploration-and-Analysis" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/supplychain.png" style="width: 259px; height: 195px;" alt="Supply Chain Data Exploration and Analysis" loading="lazy">
+                </figure>
+                <h3 class="project-title">Supply Chain Data Exploration and Analysis</h3>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python/ai/ml">
+              <a href="https://github.com/MounikaDesu/Amazon-Prime-Content-Categorization-Study" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/amazon.jpeg" style="width: 259px; height: 195px;" alt="Amazon Prime Content Categorization Study" loading="lazy">
+                </figure>
+                <h3 class="project-title">Amazon Prime Content Categorization Study</h3>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python/ai/ml">
+              <a href="https://github.com/MounikaDesu/Healthcare-Covid19-Data-Analysis" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/healthcarepng.png" style="width: 259px; height: 195px;"  alt="Covid-19 Data Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Covid-19 Data Analysis</h3>
+              </a>
+            </li>
+
+         
+
        
-        </div>
-    </section>
+          </ul>
+        </section>
+      </article>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form action="submit-form.php" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Mounika Desu. All rights reserved.</p>
-            <div class="social-icons">
-                <a href="https://linkedin.com/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
-             
-            </div>
-        </div>
-    </footer>
+      <!--
+        - #BLOG
+      -->
 
-    <script src="script.js"></script>
+      <article class="blog" data-page="certifications">
+
+        <header>
+          <h2 class="h2 article-title">Certification</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item active"  data-filter-item data-category="Certifications">
+              <a href="https://www.credly.com/badges/5eb91148-f738-46ee-a3bf-46bf98dfae65/public_url" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/popm.png" alt="Certified SAFe® 6 Product Owner/Product Manager" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+                    <time datetime="2022-02-23"></time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Certified SAFe® 6 PO/PM</h3>                
+                  <br>
+                  <p class="blog-text">I've mastered the skills necessary to guide the delivery of value in a Lean enterprise. I understand how to effectively manage backlogs, deliver features, and lead Agile teams to success to drive strategic and innovative product development.</p>
+                </div>                
+              </a>
+            </li>
+
+            <li class="blog-post-item active"  data-filter-item data-category="Certifications">
+              <a href="https://analytics.google.com/analytics/academy/certificate/cFPYbk1_SwieuYSYFCZOGQ" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/google-analytics.webp" alt="Google Analytics" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+                    <time datetime="2022-02-23"></time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Google Analytics Certified</h3>                 
+                  <br>
+                  <p class="blog-text">This certification demonstrates my ability to track and analyze website traffic to garner insights. This knowledge assists businesses in understanding visitor behavior and improves online marketing strategies.</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item active"  data-filter-item data-category="Certifications">
+              <a href="https://www.credly.com/badges/f50be767-d0a3-4ab7-b180-426218473f24?source=linked_in_profile" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Azure.jpg" alt="Microsoft Certified: Azure Fundamentals" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+                    <time datetime="2022-02-23"></time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Microsoft: Azure Az900</h3>                
+                  <br>
+                  <p class="blog-text">This certification signifies my foundational knowledge in cloud services and how they are provided with Microsoft Azure. It covers basic cloud concepts, Azure services, security, privacy, compliance, and trust, providing a solid base for further cloud-related learning.</p>
+                </div>
+                
+              </a>
+            </li>
+
+            <li class="blog-post-item active"  data-filter-item data-category="Certifications">
+              <a href="https://github.com/MounikaDesu/Awards/blob/main/BigData%20Hadoop%20and%20FinTech.pdf" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/fintech.webp" alt="Fintech with Data Analytics" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+                    <time datetime="2022-02-23"></time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Fintech with Data Analytics</h3>
+                  <br>
+                  <p class="blog-text">This certification highlights my understanding of the latest financial technologies and how they are revolutionizing the financial industry. I am equipped with the knowledge of digital payment systems, blockchain, and financial innovation that contribute to modern banking and investment solutions.</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #Publications
+      -->
+
+      <article class="contact" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+            <li class="blog-post-item active"  data-filter-item data-category="Publications">
+              <a href="https://www.semanticscholar.org/paper/Video-and-Image-Processing-Library-using-Computer-Patel-Madhuri/02e10c3867146e858750a805e28a9c1ac8c0334b" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/analysis-and-data.webp" alt="Various Approaches for Suicidal Tendency Detection" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+                    
+                    <time datetime="2022-02-23"></time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Video and Image Processing Library using Computer Vision Techniques</h3>
+
+                  <p class="blog-text">
+                    SemanticScholar   || May 26,  2017
+                  </p>
+                  <br>
+                  <p class="blog-text">This paper presents the processing of such binary data on HDFS using MapReduce with the use of standard computer vision techniques and presents the tools and discuss their implementation specific to the image/video domain in detail. 📄🔍</p>
+                </div>
+
+              </a>
+            </li>
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
